@@ -1,12 +1,15 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import Title from './src/components/Title/index'
 
 const App = () => {
   return (
     <View>
-      <Text>Olá mundo , suraia!</Text>
+      <Title />
     </View>
   )
 };
+
+
 
 export default App;
